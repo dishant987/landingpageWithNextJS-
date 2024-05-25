@@ -1,0 +1,58 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar—fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your piano journey with lessons designed for beginners.",
+      "price": 89.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Advanced Guitar Techniques",
+      "slug": "advanced-guitar-techniques",
+      "description": "Enhance your guitar skills with advanced techniques and exercises.",
+      "price": 149.99,
+      "instructor": "Jim Brown",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "Mastering Music Theory",
+      "slug": "mastering-music-theory",
+      "description": "Deep dive into music theory and composition.",
+      "price": 129.99,
+      "instructor": "Emily White",
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Drums",
+      "slug": "introduction-to-drums",
+      "description": "Learn the basics of drumming with this beginner's guide.",
+      "price": 79.99,
+      "instructor": "Mark Johnson",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "title": "Violin Essentials",
+      "slug": "violin-essentials",
+      "description": "Begin your violin journey with essential techniques and exercises.",
+      "price": 109.99,
+      "instructor": "Laura Davis",
+      "isFeatured": true
+    }
+  ]
+}
