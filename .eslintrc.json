@@ -1,8 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "extends": "next",
   "rules": {
-    "no-console": "off",
-    "react/react-in-jsx-scope": "off",
-    "rule-name-to-disable": "off"
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
