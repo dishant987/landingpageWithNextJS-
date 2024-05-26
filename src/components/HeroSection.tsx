@@ -49,7 +49,7 @@ const HeroSection = () => {
             {/* <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Master the art of Music{" "}
             </h1> */}
-            <TypewriterEffectSmooth words={words} />
+            <TypewriterEffectSmooth className=" text-center md:text-3xl md:text-center" words={words} />
 
             <p className=" mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
               Dive into our music courses and transform your musical journey
