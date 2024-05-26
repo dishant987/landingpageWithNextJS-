@@ -64,8 +64,6 @@ const HeroSection = () => {
                 >
                   Explore courses
                 </Button>
-           
-               
               </Link>
             </div>
           </div>
