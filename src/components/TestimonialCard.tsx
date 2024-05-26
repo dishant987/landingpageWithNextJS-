@@ -43,7 +43,7 @@ const TestimonialCard = () => {
   ];
   return (
     <div className="bg-[#0f172a] pt-4 h-[33rem] w-full dark:bg-black dark:bg-dot-white/[0.1] relative flex flex-col items-center justify-center overflow-hidden">
-      <h2 className="text-4xl md:text-5xl pb-8 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">Hear our Harmony : Voices of Success</h2>
+      <h2 className="text-3xl md:text-5xl pb-8 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">Hear our Harmony : Voices of Success</h2>
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-7xl">
           <InfiniteMovingCards
