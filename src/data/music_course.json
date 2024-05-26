@@ -3,56 +3,62 @@
     {
       "id": 1,
       "title": "Guitar Fundamentals",
-      "slug": "guitar—fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course. This course covers essential techniques, basic chords, and simple songs to get you started on your musical journey. Perfect for those who are new to guitar or looking to build a solid foundation.",
       "price": 99.99,
       "instructor": "John Doe",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/guitar.jpg"
     },
     {
       "id": 2,
       "title": "Piano for Beginners",
       "slug": "piano-for-beginners",
-      "description": "Start your piano journey with lessons designed for beginners.",
+      "description": "Start your piano journey with lessons designed for beginners. You'll learn how to read sheet music, play simple pieces, and understand basic music theory. Ideal for those who have always wanted to play the piano but don't know where to begin.",
       "price": 89.99,
       "instructor": "Jane Smith",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/piano.png"
     },
     {
       "id": 3,
       "title": "Advanced Guitar Techniques",
       "slug": "advanced-guitar-techniques",
-      "description": "Enhance your guitar skills with advanced techniques and exercises.",
+      "description": "Enhance your guitar skills with advanced techniques and exercises. This course is perfect for those who already have a basic understanding of guitar and want to take their playing to the next level, focusing on complex rhythms and intricate solos.",
       "price": 149.99,
       "instructor": "Jim Brown",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/adguitar.jpg"
     },
     {
       "id": 4,
       "title": "Mastering Music Theory",
       "slug": "mastering-music-theory",
-      "description": "Deep dive into music theory and composition.",
+      "description": "Deep dive into music theory and composition. This course covers scales, chords, harmonic analysis, and the structure of different musical forms. Suitable for musicians looking to understand the theoretical foundations of music to enhance their creativity.",
       "price": 129.99,
       "instructor": "Emily White",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/music.jpg"
     },
     {
       "id": 5,
       "title": "Introduction to Drums",
       "slug": "introduction-to-drums",
-      "description": "Learn the basics of drumming with this beginner's guide.",
+      "description": "Learn the basics of drumming with this beginner's guide. The course includes lessons on stick control, basic rhythms, and simple drum patterns. It's designed for those who are new to drumming and want to start playing beats and grooves right away.",
       "price": 79.99,
       "instructor": "Mark Johnson",
-      "isFeatured": false
+      "isFeatured": false,
+      "image": "/drums.jpg"
     },
     {
       "id": 6,
       "title": "Violin Essentials",
       "slug": "violin-essentials",
-      "description": "Begin your violin journey with essential techniques and exercises.",
+      "description": "Begin your violin journey with essential techniques and exercises. This course focuses on proper posture, bowing techniques, and basic scales, perfect for beginners who want to develop a strong foundation and start playing beautiful music on the violin.",
       "price": 109.99,
       "instructor": "Laura Davis",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/violin.jpg"
     }
   ]
 }
