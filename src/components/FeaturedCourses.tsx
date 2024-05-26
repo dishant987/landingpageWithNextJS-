@@ -44,7 +44,7 @@ const FeaturedCourses = () => {
                       src={`${course.image}`}
                       height="1000"
                       width="1000"
-                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      className="h-30 lg:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
                     />
                   </CardItem>
@@ -68,7 +68,7 @@ const FeaturedCourses = () => {
                       as={Link}
                       href="https://twitter.com/mannupaaji"
                       target="__blank"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                      className="px-2 md:px-2 lg:px-5 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Try now{" "}
                       <span className="bg-zinc-700 rounded-full text-[0.6rem] px-4 py-2 text-white">
