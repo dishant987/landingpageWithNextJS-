@@ -3,6 +3,7 @@ import { useMotionValue } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { useMotionTemplate, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 
 export const EvervaultCard = ({
   text,
@@ -25,7 +26,6 @@ export const EvervaultCard = ({
     let { left, top } = currentTarget.getBoundingClientRect();
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
-
     const str = generateRandomString(1500);
     setRandomString(str);
   }
@@ -49,7 +49,8 @@ export const EvervaultCard = ({
         <div className="relative z-10 flex items-center justify-center">
           <div className="relative h-72 w-72  rounded-full flex items-center justify-center text-white font-bold text-4xl">
             <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.5] blur-sm rounded-full" />
-            <img className=" rounded-3xl h-[288px] w-auto" src="/1.jpg" alt="image" />
+            <Image className=" rounded-3xl h-[288px] w-auto" src="/1.jpg" alt="image" />
+          
           </div>
         </div>
       </div>
