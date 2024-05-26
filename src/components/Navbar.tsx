@@ -11,7 +11,7 @@ export function Navbar() {
     <>
 
       <div className="relative w-full flex items-center justify-center">
-        <NavbarComp className="top-10 rounded-full" />
+        <NavbarComp className="lg:top-8 top-2 rounded-full" />
       </div>
     </>
   );
@@ -22,7 +22,7 @@ function NavbarComp({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed top-20 inset-x-0 max-w-3xl mx-auto z-50 border border-gray-500 hover:border-gray-400 duration-500",
+        "fixed top-20 inset-x-0 lg:p-0 p-3 max-w-3xl mx-auto z-50 lg:border lg:border-gray-500  hover:border-gray-400 duration-500",
         className
       )}
     >
