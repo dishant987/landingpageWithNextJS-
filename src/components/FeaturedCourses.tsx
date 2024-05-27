@@ -33,8 +33,8 @@ const FeaturedCourses = () => {
           </p>
         </div>
       </div>
-      <div className="mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center p-8">
+      <div className="">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center p-6">
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
               <CardContainer className="inter-var">
@@ -70,7 +70,7 @@ const FeaturedCourses = () => {
                       target="__blank"
                       className="px-2 md:px-2 lg:px-5 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
-                      Try now{" "}
+                      Buy{" "}
                       <span className="bg-zinc-700 rounded-full text-[0.6rem] px-4 py-2 text-white">
                         ${course.price}
                       </span>{" "}
@@ -90,7 +90,7 @@ const FeaturedCourses = () => {
           ))}
         </div>
       </div>
-      <div className=" mt-20 text-center">
+      <div className=" mt-12 text-center">
         <Link href={"/courses"}>
           <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             View All Courses
