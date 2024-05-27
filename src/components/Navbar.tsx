@@ -9,7 +9,6 @@ export function Navbar() {
 
   return (
     <>
-
       <div className="relative w-full flex items-center justify-center">
         <NavbarComp className="lg:top-8 top-2 rounded-full" />
       </div>

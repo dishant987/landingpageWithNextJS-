@@ -50,7 +50,7 @@ const UpComingWebinar = () => {
     },
   ];
   return (
-    <div className="p-12 bg-gray-900">
+    <div className="p-2 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide">
@@ -60,7 +60,7 @@ const UpComingWebinar = () => {
             Enhance Your Musical Journey
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-5">
         <HoverEffect items={project.map(project=> (
           {  
             title:project.title,
@@ -70,7 +70,7 @@ const UpComingWebinar = () => {
           }
         ))} />
         </div>
-        <div className="mt-7 text-center">
+        <div className="mt-5 text-center">
           <Link href={"#"}>
             <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-2xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               View All Webinars
